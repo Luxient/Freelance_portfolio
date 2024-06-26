@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.home, .about, .contact, .projects {
+  padding: 20px;
+}
+
+.projects ul {
+  list-style: none;
+  padding: 0;
+}
+
+.projects ul li {
+  margin: 20px 0;
+}
+
+.projects ul li a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.projects ul li a:hover {
+  text-decoration: underline;
+}
