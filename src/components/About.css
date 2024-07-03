@@ -1,0 +1,31 @@
+.about-container {
+  margin-top: 50px;
+}
+
+.about-container h1, .about-container h2 {
+  color: #343a40; /* Dark Gray Text */
+  margin-bottom: 20px;
+}
+
+.about-container p, .about-container ul {
+  color: #495057; /* Slightly lighter gray */
+  font-size: 1.2em;
+}
+
+.about-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.about-container ul li {
+  margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.about-container ul li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: #007bff;
+}

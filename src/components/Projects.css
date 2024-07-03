@@ -1,0 +1,30 @@
+.projects-container {
+  margin-top: 50px;
+}
+
+.projects-container h1 {
+  color: #343a40; /* Dark Gray Text */
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.project-card {
+  background-color: #f8f9fa; /* Light background */
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+}
+
+.project-card .btn-primary {
+  background-color: #007bff;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.project-card .btn-primary:hover {
+  background-color: #0056b3;
+}
