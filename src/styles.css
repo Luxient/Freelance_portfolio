@@ -1,29 +1,52 @@
+/* Body Styles */
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
   font-family: Arial, sans-serif;
+  background-color: #212529; /* Dark Background */
+  color: #ffffff; /* White Text */
 }
 
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
-.home, .about, .contact, .projects {
+.container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 20px;
+  background-color: #212529; /* Dark Background */
 }
 
-.projects ul {
-  list-style: none;
-  padding: 0;
+/* Footer Styles */
+footer {
+  background-color: #343a40; /* Dark Gray Background */
+  color: #ffffff; /* White Text */
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+  margin-top: auto;
 }
 
-.projects ul li {
-  margin: 20px 0;
+.footer-links a {
+  color: #17a2b8; /* Cyan Links */
+  margin: 0 5px;
 }
 
-.projects ul li a {
+.footer-links a:hover {
+  color: #138496; /* Darker Cyan on Hover */
   text-decoration: none;
-  color: #007bff;
 }
 
-.projects ul li a:hover {
-  text-decoration: underline;
+@media (max-width: 768px) {
+  .container {
+    padding-bottom: 60px; /* Additional padding for mobile view */
+  }
 }
