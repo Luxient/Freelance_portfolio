@@ -36,14 +36,16 @@ footer {
 }
 
 .footer-links a {
-  color: #17a2b8; /* Cyan Links */
-  margin: 0 5px;
+  color: #ffffff; /* White text */
+  margin: 0 10px;
+  font-size: 2em; /* Adjust icon size */
+  text-decoration: none;
 }
 
 .footer-links a:hover {
-  color: #138496; /* Darker Cyan on Hover */
-  text-decoration: none;
+  color: #17a2b8; /* Light blue on hover */
 }
+
 
 @media (max-width: 768px) {
   .container {
